@@ -5,7 +5,7 @@
 /*header */
 .customNav {
 width: 100%;
-background-color: #1F1913 !important;
+background-color: #0B0E13 !important;
 height: 60px;
 z-index: 10;
 }
@@ -63,6 +63,7 @@ h4 {
   width: 25%;
   margin-left: 5%;
   margin-right: 5%;
+  border-radius: 15px;
 }
 
 .reviewpic {
@@ -97,14 +98,15 @@ button {
   font-weight: bold;
   border-radius: 8px;
   background-color: #B3AEAD;
-  border-color: transparent;
+  border: #B3AEAD;
+  color:black;
   padding:1%;
 }
 
 button:hover {
-  background-color: #d4d4d4;
-  border-color: #10A4BF;
-  color: #10A4BF;
+  background-color: #e7e7e7;
+  border: #e7e7e7;
+  color:black;
 }
 
 .footerContainer {
