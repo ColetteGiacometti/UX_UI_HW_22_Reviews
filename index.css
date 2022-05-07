@@ -110,6 +110,16 @@ button:hover {
   color:black;
 }
 
+button:active {
+  background-color: #e7e7e7;
+  border: #000000;
+  color:#0B0E13;
+}
+
+button:hover, button:focus {
+  outline: none;
+}
+
 .footerContainer {
   padding-top: 2%;
   padding-bottom: 2%;
