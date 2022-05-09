@@ -42,10 +42,33 @@ h4 {
   font-family: 'Josefin Slab', serif;
   font-size: 200%;
   font-weight: normal;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
   padding-left: 10%;
+  margin-bottom: 0;
 }
 
+h5 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 110%;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.starspic {
+  padding-left: 2%;
+}
+
+.rowReviews {
+  width: 60%
+}
 
 .container {
   padding-bottom: 5%;
@@ -58,7 +81,8 @@ h4 {
 .card-deck {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+
 }
 .card {
   width: 25%;
@@ -67,12 +91,10 @@ h4 {
   border-radius: 15px;
 }
 
-.reviewpic {
-    padding-top: 5%;
-    padding-bottom: 10%;
-    width: 60%;
+.socialReview {
+  float:right;
+  font-style: italic;
 }
-
 p {
   font-family: 'Lato', sans-serif;
   line-height: 1.7;
@@ -80,11 +102,13 @@ p {
 .card-text {
   font-family: 'Lato', sans-serif;
   color: white;
+  font-size: 130%;
 }
 
 .text-muted {
   font-family: 'Lato', sans-serif;
   color: rgb(219, 219, 219) !important;
+  font-size:100%;
 }
 
 .moreReviewBtn {
@@ -94,7 +118,7 @@ p {
 }
 
 button {
-  font-size:80%;
+  font-size:100%;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   border-radius: 8px;
