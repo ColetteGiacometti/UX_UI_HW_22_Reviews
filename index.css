@@ -36,6 +36,16 @@ nav ul li:hover {
   border-bottom-right-radius: 4%;
 }
 
+h1 {
+  padding-top: 5%;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 300%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  margin-bottom: 0;
+}
+
 h4 {
   padding-top: 2%;
   color: white;
